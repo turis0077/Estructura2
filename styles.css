@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #4b6a32;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.basket {
+    background-color: #4b6a32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+.produce-header {
+    margin-bottom: 20px;
+}
+
+.produce-header h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.subheader span {
+    margin-right: 5px;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.filter-buttons button {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-buttons .active {
+    background-color: #4b6a32;
+    color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+
+.product-info .price {
+    color: #4b6a32;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-info .location {
+    color: #555;
+    font-size: 14px;
+}
